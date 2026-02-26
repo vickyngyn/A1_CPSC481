@@ -9,6 +9,9 @@ self.N2 = N2
 super().__init__(initial, goal)
 if __name__ == '__main__':
 mc = MissCannibalsVariant(4,4)
+
+
+
 # Test example while developing:
 # print(mc.actions((3, 3, True)))
 path = depth_first_graph_search(mc).solution()
